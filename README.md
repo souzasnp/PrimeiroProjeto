@@ -1,2 +1,5 @@
 # PrimeiroProjeto
- Aula Curso em Video
+Pequeno Gafanhoto em Busca de Conhecimento!!!
+
+Aula Curso em Video
+Prof: Gustavo Guanabara
