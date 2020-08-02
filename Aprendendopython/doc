@@ -13,3 +13,13 @@ Instalando Python
    - python.org
    - add patch
    - disable final da instalação
+
+         Python
+obs: todos os comandos são funções e  toda e qualquer função no python3 exige parenteses.
+
+obs: toda variavel em python é um objeto.
+
+-Primeiros Comandos em Python
+      - print ('Comando que escreve na tela')
+      -   =   ('Utilizando quando alguma variavel recebe algo)
+      - input ('Comando Leia tem a função de interagir com o usuario)
