@@ -23,3 +23,9 @@ obs: toda variavel em python é um objeto.
       - print ('Comando que escreve na tela')
       -   =   ('Utilizando quando alguma variavel recebe algo)
       - input ('Comando Leia tem a função de interagir com o usuario)
+
+- Tipos Primitivos
+      - int ('Números Inteiros')
+      - float ('Números de Ponto flutuante ou número real')
+      - bool ('boleanos True ou False')
+      - str ('Caracteres 'Olá', '7.5')
