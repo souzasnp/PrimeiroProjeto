@@ -29,3 +29,18 @@ obs: toda variavel em python é um objeto.
       - float ('Números de Ponto flutuante ou número real')
       - bool ('boleanos True ou False')
       - str ('Caracteres 'Olá', '7.5')
+      
+Aula 07 - curso em video
+- Operadores Aritiméticos
+      - (+) Adição
+      - (-) Subtração
+      - (*) Multiplicação
+      - (/) Divisão
+      - (**)Potência
+      - (//)Divisão Inteira
+      - (%) Resto da Divisão
+   * Ordem de Procedência
+      1 - ()
+      2 - **
+      3 - * / // %
+      4 - + - 
