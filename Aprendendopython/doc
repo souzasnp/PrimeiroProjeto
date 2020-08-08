@@ -46,3 +46,14 @@ Aula 07 - curso em video
       4 - + - 
 
 FASE 08 - TRABALHANDO COM MODULOS
+      - import (Quando utilizado sozinho importa toda a biblioteca)
+ex: import (biblioteca)
+      - from (importa somente o que for especificado) 
+ex: from (biblioteca) import (item)
+      - math (importa funções matematicas)
+      - ceil (arredonda para cima)
+      - floor(arredonda para baixo)
+      - trunc(Elimina o numero da virgula para frente)
+      - pow  (potencia)
+      - sqrt (Calcula Raiz quadrada)
+      - Factorial ()
