@@ -10,19 +10,20 @@
 
 #Fase 8  a 
 #Exemplo importando toda a biblioteca
-import math
-num = int(input('Digite um número: '))
-raiz = math.sqrt(num)
-print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
+#import math
+#num = int(input('Digite um número: '))
+#raiz = math.sqrt(num)
+#print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
 #Exemplo importando somente a função
-from math import sqrt
-num = int(input('Digite um número: '))
-raiz = sqrt (num)
-print('A raiz de {} é igual a {}').format(num, raiz)
+#from math import sqrt
+#num = int(input('Digite um número: '))
+#raiz = sqrt (num)
+#print('A raiz de {} é igual a {}').format(num, raiz)
 
 #Exemplo de como gerar dados aleatórios
-import random
-num = random.random() ou random.randint
-print(num)
+#import random
+#num = random.random() ou random.randint
+#print(num)
 
-import emoji
+#import emoji
+#print(emoji.emojize('Python is :thumbs_up:'))
