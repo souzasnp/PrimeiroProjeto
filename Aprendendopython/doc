@@ -59,4 +59,9 @@ ex: from (biblioteca) import (item)
       - Factorial ()
 
 FASE 09 - MANIPULANDO TEXTO
-      - 
+      - Fatiamento (frase = [9]  ou [9:13] ou [9:21:2] ou [:5] ou [15:])
+      - Analise (len(frase) / (frase.count('o', 0, 13) / (frase.find('deo)) /  )
+      - Transformação (frase.replace('Python','Android') (frase.upper()) (frase.lower()) (frase.capitalize())
+      (frase.title()) (frase.strip()) (frase.rstrip()) (frase.lstrip()))
+      - Divisão (frase.split()) 
+      - Junção ('-'.join(frase))

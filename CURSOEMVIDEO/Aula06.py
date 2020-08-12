@@ -27,3 +27,10 @@
 
 #import emoji
 #print(emoji.emojize('Python is :thumbs_up:'))
+
+
+#FASE 09 - CURSO EM VIDEO
+#FATIAMENTO DA FRASE
+
+frase = 'Inviolavel Sinop'
+print(frase.count('o'))
