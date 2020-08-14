@@ -4,10 +4,9 @@
 # -  Quantas letras ao todos sem considerar os espaços.
 # -  Quantas letras tem o primeiro nome
 
-nome = str(input('Digite o nome completo: '))
+nome = str(input('Digite o nome completo: ')).strip()
 espc = nome.replace(" ","")
-maius = nome.upper()
-minus = nome.lower()
-letras = len(espc.strip())
-qnt = len(nome.split())
-print(maius, minus, letras, qnt)
+print('Seu nome em maiúsculo: {}'.format(nome.upper()))
+print('Seu nome em minúsculo: {}'.format(nome.lower()))
+print('Seu nome tem um total de {} letras.'.format(len(espc)))
+print('Seu primeiro nome tem {} letras.'.format(nome.find(' ')))

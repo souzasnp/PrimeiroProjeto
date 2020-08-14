@@ -2,4 +2,6 @@
 #Ex: Ana maria de Souza
 #Primeiro: ana
 #Ultimo Souza
-nome = str(input('Digite seu nome completo: '))
+nome = str(input('Digite seu nome completo: ')).strip().upper()
+primeironome = nome.split()
+print('Seu primeiro nome: {}\n Último sobrenome: {}'.format(primeironome[0], primeironome[len(primeironome)-1]))
