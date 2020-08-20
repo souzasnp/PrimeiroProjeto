@@ -3,7 +3,7 @@ from random import randint
 from time import sleep
 n = int(input(' entre com o número: '))
 a = randint(0,5) #gera números aleatórios
-print('PROCESSANDO...')
+print('\033[7;31;40mPROCESSANDO...\033[m')
 sleep(3) #faz o computador dormir.
 if n == a:
     print('VOCÊ VENCEU!!! O NÚMERO SORTEADO É : {}'.format(a))

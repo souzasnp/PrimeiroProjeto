@@ -65,3 +65,9 @@ FASE 09 - MANIPULANDO TEXTO
       (frase.title()) (frase.strip()) (frase.rstrip()) (frase.lstrip()))
       - Divisão (frase.split()) 
       - Junção ('-'.join(frase))
+
+#Adicionando Cores
+      - \033[style;text;back m]
+      - Código Style: 0,1,4,7 (0 mantem o padrao, 1 negrio, 4 sublinhado, 7 negativa)
+      - Código Text : (30 branco, 31 vermelho, 32 verde, 33 amarelo, 34 azul, 35 purple, 36 ciano, 37 cinza)
+      - Código Back : (40 branco, 41 vermelho, 42 verde, 43 amarelo, 44 azul, 45 purple, 46 ciano, 47 cinza)
