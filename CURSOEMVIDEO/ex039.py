@@ -2,12 +2,12 @@
 from datetime import date
 ano = int(input('Informe o ano de nascimento: '))
 r = date.today().year - ano
+print('Idade: {} anos'.format(r))
 if r <= 17:
     print('Infelizmente você não poderá se alistar, ESPERA SEU PERIODO DE ALISTAMENTO CHEGAR.')
-    print('Tempo que falta para se alistar: {}')
+    print('Tempo que falta para se alistar: {} ano(s)'.format(18 - r))
 elif r == 18:
     print('Seu periodo de ALISTAMENTO chegou, acesse o site: https://www.alistamento.eb.mil.br/')
 else:
-    print('Infelizmente seu tempo de se alistar já se esgotou, ')
+    print('Infelizmente seu tempo de se alistar já se esgotou, já se passaram {} ano(s).'.format(r-18))
 print('TENHA UM EXCELENTE DIA!!!!')
-print(r)
