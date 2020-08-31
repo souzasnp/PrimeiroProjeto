@@ -4,9 +4,9 @@ print('xxxxxxxxxxxxxxx Programa de Conversão xxxxxxxxxxxx')
 print('Escolha: Binario, Octal, Hexadecimal.')
 tipo = str(input('Qual a forma de Conversão: ')).upper()
 conv = int(input('Digite um número para conversão: '))
-a = bin(conv)
-b = oct(conv)
-c = hex(conv)
+a = bin(conv)[2:]#[2:] fatiamento 
+b = oct(conv)[2:]
+c = hex(conv)[2:]
 print('\033[4;31;40mCarregando...\033[m')
 sleep(2)
 if tipo == 'BINARIO':
