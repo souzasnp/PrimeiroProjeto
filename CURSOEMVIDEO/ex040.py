@@ -3,7 +3,7 @@ print('xxxxxxxxxx Calculo Média Aluno xxxxxxxxxx')
 m1 = float(input('Insira a 1º nota do aluno: '))
 m2 = float(input('Insira a 2º nota do aluno: '))
 media = (m1 + m2) / 2
-print('A média do aluno é : {}'.format(media))
+print('A média do aluno é : {:.1f}'.format(media))
 if media < 5:
     print('REPROVADO')
 elif media >= 7:
