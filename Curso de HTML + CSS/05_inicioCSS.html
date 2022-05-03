@@ -11,9 +11,16 @@ renderizada-->
         <style>
             h1 {
                 font-family: Georgia;
-                font-size: 35px;
+                font-size: 35px; <!-- Tamanho da Fonte-->
                 font-style: italic;
-                font-variant: small-caps;
+                font-variant: small-caps;d
+            }
+
+            h2 {
+                text-transform: uppercase; <!-- Deixou todas letras maiusculas-->
+                font-family: arial;
+                color: #12de5a;
+                background-color: #f85a5f; <!-- Cor de Fundo -->
             }
 
             p{
@@ -21,15 +28,26 @@ renderizada-->
                 color: aquamarine;
                 text-align: justify;
             }
+
+            .destaque {
+                color: red;
+                background-color: yellowgreen;
+            }
+
+            .primeiro {
+                color:blueviolet;
+                background-color: black;
+            }
         </style>
     </head>
     <body>
         <h1> Estrutura básica. </h1>
-        <p> Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+        <h2> Testando Fontes. </h2>
+        <p class="primeiro"> Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
             Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.Paisis, filhis, espiritis santis.Mé faiz elementum girarzis, nisi eros vermeio.
         </p>
 
-        <p>Interagi no mé, cursus quis, vehicula ac nisi.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
+        <p class="destaque">Interagi no mé, cursus quis, vehicula ac nisi.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
             Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.A ordem dos tratores não altera o pão duris.
         </p>
     </body>
